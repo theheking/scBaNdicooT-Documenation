@@ -1,0 +1,27 @@
+
+
+Understanding how individual cells respond to therapy, in real time, is one of the biggest challenges in cancer biology. 
+Traditional bulk and single-cell RNA sequencing provide powerful snapshots of gene expression, but they struggle to distinguish 
+**newly activated transcriptional programs** from long-lived, pre-existing RNA. This limitation makes it difficult to capture 
+the earliest molecular decisions that determine whether a cell becomes sensitive, resistant, or committed to cell death.
+
+This project introduces a **nascent single-cell RNA sequencing framework** designed to overcome that challenge. 
+By combining **metabolic RNA labelling** with **single-cell sequencing**, we directly measure newly synthesised RNA at 
+single-cell resolution. This enables a time-resolved view of transcriptional activity — revealing how cells dynamically 
+respond to stress, drugs, and environmental cues, rather than relying on steady-state expression alone.
+
+In the paper, we apply this approach in a **physiologically relevant 3D tumour model**, preserving tumour 
+architecture and the native tumour microenvironment. Using ex vivo tumoroids derived from a genetically engineered 
+mouse model of breast cancer, we profile transcriptional responses to chemotherapy across thousands of individual cells,
+spanning epithelial, immune, endothelial, and stromal populations.
+
+Crucially, this work extends nascent RNA sequencing to **scalable single-cell platforms**, including a newly developed 
+pipeline compatible with **microwell-based technologies**, such as BD-Rhapsody. This fills a major methodological gap 
+between low-throughput plate-based methods and rigid droplet-based workflows, making nascent single-cell analysis 
+more accessible for complex tissues and large datasets.
+
+Overall, this resource is intended for researchers who want to investigate **dynamic gene regulation** in 
+heterogeneous cell populations by applying **nascent RNA sequencing** to heterogeneous tissues. 
+Specifically, it bioinformatics steps for analysing nascent single-cell RNA-seq data generated using:
+- BD Rhapsody or similar microwell-based single-cell platforms
+- Using 4sU-based metabolic labelling to track **newly transcribed RNA** as per scNT-seq
