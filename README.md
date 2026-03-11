@@ -6,7 +6,7 @@
 ## Abstract
 
 
-![Visual Figure](./source/fig/figure-01.png)
+![Visual Figure](./fig/figure-01.png)
 
 
 ## Links
@@ -19,12 +19,3 @@ Please access the raw data:
 
 Please access the paper:
 - **Pending**
-
-## Pipeline
-
-
-2. Nextflow pipeline
-
-
-3. Statistical Modelling (R) 
-
