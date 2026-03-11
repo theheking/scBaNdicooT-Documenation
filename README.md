@@ -6,7 +6,7 @@
 ## Abstract
 
 
-![Visual Figure](./fig/fig_pipeline-01.png)
+![Figure of Pipeline](./img/fig_pipeline-01.png)
 
 
 ## Links
